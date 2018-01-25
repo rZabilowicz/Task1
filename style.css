@@ -1,0 +1,208 @@
+*{
+	font-family: 'Titillium Web', sans-serif;
+	color: #a1a1a1;
+}
+
+body{
+	background-image: url('img/Background.png');
+	background-size: 100% 100%;
+	width: 100%;
+}
+
+#container{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+span{
+	position: relative;
+}
+img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	opacity: 0.5;
+}
+
+.form{float: left;
+}
+
+
+
+h1{
+	text-align: center;
+	color: #fbfbfb;
+	text-shadow: 1px 2px 2px black;
+}
+
+header{
+	padding: 50px;
+}
+
+.form-wrapper form{
+	background-color: #f9f9f9;
+	border-radius: 4px;
+	position: relative;
+}
+.form-wrapper{
+	width: 70%;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 4px;
+
+}
+
+.form-box{
+	position: relative;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	height: 35px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.form-box:last-child{
+	margin-bottom:  0px;
+}
+.formFormating{
+	padding: 20px;
+	position: relative;
+
+}
+.formFormating label{
+	display: inline-block;
+	padding-top: 5px;
+	width: 15%;
+	height: 31px;
+}
+
+
+.formFormating input[type=text],.formFormating input[type=mail],.formFormating select{
+	position: absolute;
+	width: 80%;
+	height: 33px; 
+	border: 0px solid;
+	background-color: transparent;
+	top: 0px;
+	padding-left: 15px;
+	border-left: 1px solid #e0e0e0;
+	align-self: center;
+}
+.formFormating select{
+	width: 90%;
+}
+.location_arrow{
+	display: block;
+	position: absolute;
+	right: 5px;
+	top: 15px;
+}
+
+input[type=submit]{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	height: 60px;
+	width: 100%;
+	border: 1px solid #759A43;
+	border-radius: 3px;
+	background: -webkit-linear-gradient(top, #86C924,  	#759A43);
+	background: -moz-linear-gradient(top, #86C924,  	#759A43);
+    background: -o-linear-gradient(top, #86C924,  	#759A43);
+    background: -ms-linear-gradient(top, #86C924,  	#759A43);
+    background: linear-gradient(top, #86C924,  	#759A43);
+	font-size: 20px;
+	color: white;
+	text-shadow: 1px 2px 2px black;
+
+}
+input[type=submit]:hover{
+	background: -webkit-linear-gradient(top, #a2d73e,  	#759A43);
+     background: -moz-linear-gradient(top, #a2d73e,  	#759A43);
+    background: -o-linear-gradient(top, #a2d73e,  	#759A43);
+    background: -ms-linear-gradient(top, #a2d73e,  	#759A43);
+    background: linear-gradient(top, #a2d73e,  	#759A43);
+}
+.submit-box{
+	position: relative;
+	height: 60px;
+}
+.submit-box input[type=submit]:first-child{
+	position: absolute;
+	right: 0px;
+	width:45% ;
+}
+.submit-box input[type=submit]:nth-child(2){
+	position: absolute;
+	left: 0px;
+	width:45% ;
+}
+
+.textArea-box{
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	margin-bottom:  20px;
+}
+textarea{
+	width: 100%;
+	height: 200px;
+	background-color: transparent;
+	border: 0px solid;
+}
+
+input[type=checkbox]{
+	margin-bottom: 20px;
+}
+
+
+
+.waterLogo{
+	display: block;
+	margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+	input[type=submit],h1{
+		font-size: 20px;
+	}
+	#container .form{
+		width: 100%;
+	}
+	.logo,.waterLogo{
+		width: 100%;
+	}
+   
+}
+ 
+@media (min-width: 768px) and (max-width: 1024px) {
+   #container .form{
+	width: 100%;
+	}
+	.logo,.waterLogo{
+		width: 100%;
+	}
+}
+ 
+@media (min-width: 1025px) {
+	.sendMail{
+		position: relative;
+		top: -100px;
+	}
+	#container .form{
+		width: 49%;
+	}
+}
+ 
+@media (orientation: portrait) {
+   #container .form{
+	width: 100%;
+	}
+	.logo,.waterLogo{
+		width: 100%;
+	}
+}
+
